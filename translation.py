@@ -36,7 +36,7 @@ Developed with ❤ By @Harshu_xD
 
 <b>💢 Source Code:<a href='https://t.me/Harshu_xD'> Click Here </a></b>
 
-<b>🔔 Bot Updates: <a href='https://t.me/TeleRoidGroup'> @TeleRoidGroup</a></b>
+<b>🔔 Bot Updates: <a href='https://t.me/Harshu_xD'> @StarterChannel</a></b>
 
 <b>⚜️ Upload Big Files Here : <a href='https://t.me/StarterLeech'> @StarterLeech</a></b>
 
