@@ -12,7 +12,7 @@ async def ForceSub(bot: Client, cmd: Message):
         if user.status == "banned":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="Access Denied ⚠. Contact my [Support Group](https://t.me/TeleRoid14).",
+                text="Access Denied ⚠. Contact my [Master](https://t.me/Harshu_xD).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -20,11 +20,11 @@ async def ForceSub(bot: Client, cmd: Message):
     except UserNotParticipant:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!\n\nAnd Still If Bot AskS For Joining Updates Channel then Join @MoviesFlixers_DL this Channel too.",
+            text="**<b>Please Join My Updates Channel to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!\n\n⚜𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢 - 𝙷𝚊𝚛𝚜𝚑𝚞_𝚡𝙳</b>",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url="https://t.me/TeleRoidGroup")
+                        InlineKeyboardButton("🤖 Join My Channel", url="https://t.me/StarterChannel")
                     ]
                 ]
             ),
@@ -34,7 +34,7 @@ async def ForceSub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something Went Wrong. Contact my [Support Group](https://t.me/TeleRoid14)",
+            text="Something Went Wrong. Contact my [Master](https://t.me/Harshu_xD)",
             parse_mode="markdown",
             disable_web_page_preview=True
         )
